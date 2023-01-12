@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    color: gold;
+    background-color: blueviolet;
+    text-align: center;
+    padding: 20px, 0;
+}
+
+.lista {
+    display: flex;
+    margin: 20px, 0;
+    padding: 0, 20px;
+}
+
+.lista input[type="text"] {
+    flex: 1;
+    height: 38px;
+    padding-left: 20px;
+}
+
+.produto {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
