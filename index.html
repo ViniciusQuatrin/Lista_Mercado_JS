@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css"> 
+        
     <title>Lista Mercado</title>
     </head>
     <body>
@@ -13,15 +14,22 @@
        </header>
        <div class="lista">
             <input type="text" placeholder="nome do produto" name="nome_produto"/>
-            <input type="text" placeholder="valor do produto" name="valor_produto"/>
+            <input type="number" placeholder="valor do produto" name="valor_produto" step="0.01"/>
             <input type="submit" name="acao" value="cadastrar"/>
-       </div>
-      <div class="lista-produtos">
-            <div class="produto">  
-                
-            </div>
-      </div>
-      <script>
-      </script>
+            <div class="clear"></div>
+       </div> <!--lista-->
+
+        <div class="lista-produtos">
+        </div> <!--lista-produtos-->      
+      
+      <div class="total">
+            <h2>Total: R$0</h2>
+      </div> <!--total-->
+
+      <div class="botao">
+          <button name="limpar">Limpar</button>
+    </div>
+
+    <script src="mercadoJs.js"></script>
     </body>
 </html>
